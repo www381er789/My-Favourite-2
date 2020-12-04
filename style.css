@@ -25,6 +25,12 @@ img {
     border-radius: 1000px;
     height: 200px;
     padding: 5px;
+    transition: transform .2s;
+    border: 10px solid fuchsia;
+}
+
+img:hover{
+    transform: scale(0.9);
 }
 
 h2 {
@@ -77,4 +83,5 @@ a:hover {
     text-shadow: 2px 2px color: blue;
     color: cornsilk;
     }
+
  
